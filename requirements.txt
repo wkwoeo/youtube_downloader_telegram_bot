@@ -2,3 +2,4 @@ requests
 telebot
 yt_dlp
 pyrogram
+ffmpeg-python
