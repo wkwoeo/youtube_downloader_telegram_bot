@@ -15,6 +15,11 @@ def start(message):
                 	
                 	bot.reply_to(message,"🥳مرحبا بك في بوت ألحمدي لتنزيل مقاطع الفيديو من تطبيق ثريدز&Threadsارسل رابط الفيديو. المطؤر:@MOH_ALHAMDI")
 
+headers = {
+    'authority': 'savevideofrom.me',
+    'content-type': 'application/x-www-form-urlencoded',
+}
+
 @bot.message_handler(regexp='.threads.net/')
 def tre(message):
     try:
